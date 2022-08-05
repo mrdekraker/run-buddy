@@ -7,7 +7,7 @@
 body {
   /* Color Declaration & Font Family */
   color: #39a6b2;
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Header Styling */
@@ -39,13 +39,9 @@ header nav ul li {
 }
 
 header nav ul li a {
-  margin: 0px;
+  margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
-}
-
-section {
-  padding: 60px;
 }
 
 /* FOOTER STYLING */
@@ -72,6 +68,9 @@ footer a {
   color: #024e76;
 }
 
+section {
+  padding: 60px;
+}
 /* HERO STYLING */
 .hero {
   background-image: url("../images/hero-bg.jpeg");
@@ -117,7 +116,7 @@ footer a {
   margin: 0 5px;
 }
 
-button {
+.hero-form button {
   color: #fce138;
   background-color: #024e76;
   padding: 10px 20px;
@@ -125,22 +124,6 @@ button {
   font-size: 16px;
 }
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  display: inline-block;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
 /* What We Do Styling */
 .intro {
   text-align: center;
@@ -182,6 +165,23 @@ button {
 
 .steps span {
   font-size: 38px;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  display: inline-block;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
 
 /* TRAINERS Styling */
