@@ -44,6 +44,10 @@ header nav ul li a {
   font-size: 22px;
 }
 
+section {
+  padding: 60px;
+}
+
 /* FOOTER STYLING */
 footer {
   background: #fce138;
